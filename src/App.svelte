@@ -19,7 +19,7 @@
 	<h2>I want to learn today:</h2>
 	<List content={expectations}></List>
 
-	<h2>When not doing devops, I like to:</h2>
+	<h2>When not doing devops, I like:</h2>
 	<List content={hobbies}></List>
 </main>
 
