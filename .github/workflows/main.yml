@@ -12,5 +12,6 @@ jobs:
       - name: Unit Tests
         run: yarn test
       - name: Integration Tests
-        run: yarn build |
-             yarn test:e2e
+        run: | 
+          yarn build
+          yarn test:e2e
