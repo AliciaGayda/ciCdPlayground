@@ -4,25 +4,28 @@ new App({
 	target: document.body,
 	props: {
 		// What's your name?
-		name: 'James Butler',
-		// In the following fiels you can either give a single string, 
+		name: 'Alicia Gayda',
+		// In the following fields you can either give a single string,
 		// or an array of bullet points
 		
 		// What do you associate with the term 'CI/CD'?
 		associations: [
-			'Ehm, what?'
+			'automated testing',
+			'build & deployment pipelines',
+			'pull request policies / reviewing',
+
 		],
 		// Which CI/CD tools do you use in your project?
-		tools: 'Jenkins, maybe?',
+		tools: 'Azure DevOps',
 		// What do you want to learn in this workshop? 
 		expectations: [
-			'what you are talking about'
+			'For me, CI/CD is still very abstract. I hope that my knowledge of it will become more concrete.'
 		],
 		// What do you like to do when you're not coding?
 		hobbies: [
-			'play chess', 
-			'do skydiving', 
-			'do my taxes'
+			'dancing',
+			'acrobatics',
+			'painting'
 		]
 	}
 });
